@@ -2,9 +2,11 @@
 
 ## Install Chrome Extension
 
-1. Download the .crx file from the [releases page](https://github.com/niklasr22/digicampus-darkmode/releases)
-2. Navigate to [chrome://extensions](chrome://extensions)
-3. Drag and drop the .crx file anywhere onto the 
+1. Clone this repository or download the .zip file and unzip it
+2. Navigate to chrome://extensions
+3. Enable "developer mode" (top right corner)
+4. Click "load unpacked" and select the cloned/unzipped folder
+5. Enjoy a dark Digicampus
 
 ## Disclaimer
 
