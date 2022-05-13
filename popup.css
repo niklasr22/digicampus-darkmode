@@ -1,0 +1,8 @@
+body {
+    background-color: #111;
+}
+
+button {
+    font-family: monospace;
+    min-width: 120px;
+}

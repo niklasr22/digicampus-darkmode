@@ -1,0 +1,196 @@
+body {
+    color: #eee !important;
+    background-color: #1a1a1a !important;
+}
+
+article > section {
+    color: #eee !important;
+    background-color: #303030 !important;
+}
+
+#barBottomContainer, #flex-header, #tabs, #layout_footer {
+    background-color: #080808 !important;
+}
+
+#barBottomContainer, #tabs {
+    border-color: #131313;
+}
+
+#tabs li, .smiley-tabs li, .helpbar-container, .helpbar-container * {
+    background: none !important;
+}
+
+#page_title_container, #layout_container {
+    background-color: #1a1a1a !important;
+}
+
+#layout_content, #layout_page, .ui-widget-content {
+    background: none !important;
+}
+
+#layout-sidebar, .studip-widget .widget-header {
+    background: #000 !important;
+}
+
+#layout-sidebar, .studip-widget, article.studip {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    border-color: #505050 !important;
+}
+
+a:not(.button), a:link:not(.button), a:visited:not(.button) {
+    color: #3e7cdd !important;
+}
+
+table.default>tbody>tr>th, table.default>thead>tr>th {
+    background-color: #193052 !important;
+}
+
+table.default>tbody>tr>td {
+    border-color: #3e4042 !important;
+}
+
+table.default>caption {
+    color: #757b85 !important; 
+}
+
+table.default>tfoot>tr>td {
+    background-color: #000 !important;
+}
+
+table#schedule_data thead tr td, div.schedule_hours, table#schedule_data tbody td:first-child{
+    background: none !important;
+    color: #eee !important;
+    border-color: #0000 !important;
+}
+
+.sortable-table .header, .sortable-table .tablesorter-header:not(.sorter-false) {
+    color: #7699cf !important;
+}
+
+div.schedule_day, div.schedule_hours, div.schedule_marker {
+    border-color: #4e4e4e !important;
+}
+
+.sidebar-widget, .sidebar .sidebar-widget-header {
+    background: none !important;
+    color: #3b74cd !important;
+    border-color: #323232 !important;
+}
+
+.icon-role-info, .icon-shape-news, #barTopStudip {
+    filter: invert(1) !important;
+}
+
+section.contentbox header, article.studip header,
+section.contentbox footer {
+    background-color: #000 !important;
+}
+
+section.contentbox, article.studip {
+    border-color: #6a6a6a !important;
+}
+
+input[type=text], select, .ui-dialog, textarea {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #555 !important;
+    border-radius: 10px !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #9b9b9b !important;
+}
+
+.js .drag-and-drop {
+    background-color: #0000 !important;
+    border: 1px #555 solid !important;
+    border-radius: 10px !important;
+}
+
+.widget-links.sidebar-views>li.active {
+    background: #000000 !important;
+}
+
+.ui-widget-content {
+    color: #eee !important;
+}
+
+.ui-button, .button, a.button:hover {
+    background: #1a2a7a8f !important;
+    border-radius: 10px !important;
+    border-color: #28497c !important;
+    color: #c7adad !important;
+}
+
+.ui-button:hover, .button:hover, a.button:hover {
+    background: #1a2a7a4d !important;
+}
+
+#forum .posting {
+    background-color: #2a2a2a !important;
+}
+
+table.dates .nextdate {
+    background-color: #132646 !important;
+}
+
+input#globalsearch-icon {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+#blubber_threads .comments .posting {
+    background-color: #000 !important;
+}
+
+.contextinfo, #blubber_threads .comments {
+    background-color: #1f3a62 !important;
+}
+
+.message_body {
+    background-color: #2e2e2e !important;
+}
+
+.cke_inner {
+    background: #000 !important;
+}
+
+.cke_toolbox {
+    filter: invert(1) !important;
+}
+
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+    background-color: #121212 !important;
+    color: #eee !important;
+}
+
+#notification_marker {
+    background-color: #000 !important;
+    color: #406eb5 !important;
+}
+
+.action-menu-content {
+    background-color: #000 !important;
+}
+
+.action-menu-title {
+    color: #eee !important;
+}
+
+div.messagebox_info, div.messagebox_success {
+    color: #eee !important;
+    background-color: #000 !important;
+}
+
+form.default fieldset.select_terms_of_use>input[type=radio]:checked+label {
+    background-color: #000 !important;
+}
+
+#blubber_threads li.more {
+    background-color: #000 !important;
+}
+
+#blubber_threads li.more:hover {
+    background-color: #101010 !important;
+}
