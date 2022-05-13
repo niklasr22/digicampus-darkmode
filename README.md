@@ -1,1 +1,1 @@
-# digicampus-darkmode
+# Dark mode for digicampus (Chrome extension)
