@@ -24,13 +24,17 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, legend {
     color: var(--cdc-foreground) !important;
 }
 
 article > section {
     color: #eee !important;
     background-color: #303030 !important;
+}
+
+form.default footer {
+    background-color: transparent !important;
 }
 
 #barBottomContainer, #flex-header, #tabs, #layout_footer {
@@ -82,7 +86,7 @@ body:not(.fixed) #barTopMenu li.active>a img, body:not(.fixed) #barTopMenu li:ho
     background: #000 !important;
 }
 
-#layout-sidebar, .studip-widget, article.studip, section.contentbox {
+fieldset, #layout-sidebar, .studip-widget, article.studip, section.contentbox {
     border-radius: 4px !important;
     overflow: hidden !important;
     border-color: #505050 !important;
@@ -141,6 +145,10 @@ div.schedule_day, div.schedule_hours, div.schedule_marker {
     color: var(--cdc-success) !important;
 }
 
+.blank {
+    background-color: transparent !important;
+}
+
 .postbody {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -164,9 +172,17 @@ article.studip.toggle>header h1>a:before, .icon-role-clickable {
     filter: invert(1) !important;
 }
 
+form.default fieldset>legend,
 section.contentbox header, article.studip header,
 section.contentbox footer {
     background-color: #000 !important;
+}
+
+fieldset>legend {
+    border: 1px solid rgb(80, 80, 80) !important;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 section.contentbox, article.studip {
