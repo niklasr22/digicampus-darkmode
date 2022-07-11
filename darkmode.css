@@ -3,6 +3,7 @@
     --cdc-background-navbar: #1c1c1c;
     --cdc-foreground: #eee;
     --cdc-primary: #0a3887;
+    --cdc-primary-darker: #0a3175;
     --cdc-success: #047600;
     --cdc-fail: #a70101;
 }
@@ -140,6 +141,17 @@ div.schedule_day, div.schedule_hours, div.schedule_marker {
     color: var(--cdc-success) !important;
 }
 
+.postbody {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #d0d7e3;
+    padding: 15px !important;
+}
+
+#forum .postprofile {
+    border-left: none !important;
+}
+
 article.studip header h1 {
     font-weight: 300 !important;
 }
@@ -199,7 +211,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .ui-button:hover, .button:hover, a.button:hover {
-    background: #1a2a7a4d !important;
+    background: var(--cdc-primary-darker) !important;
 }
 
 #forum .posting {
