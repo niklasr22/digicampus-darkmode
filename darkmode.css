@@ -24,11 +24,15 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3, h4, legend {
+h1,
+h2,
+h3,
+h4,
+legend {
     color: var(--cdc-foreground) !important;
 }
 
-article > section {
+article>section {
     color: #eee !important;
     background-color: #303030 !important;
 }
@@ -37,24 +41,37 @@ form.default footer {
     background-color: transparent !important;
 }
 
-#barBottomContainer, #flex-header, #tabs, #layout_footer {
+#barBottomContainer,
+#flex-header,
+#tabs,
+#layout_footer,
+.tabs_wrapper {
     background-color: var(--cdc-background-navbar) !important;
 }
 
-#barBottomContainer, #tabs {
+#barBottomContainer,
+#tabs {
     border-color: var(--cdc-background-navbar);
 }
 
-body:not(.fixed) #barTopMenu li.active>a img, body:not(.fixed) #barTopMenu li:hover>a img {
-    filter: hue-rotate(350deg) saturate(100%) brightness(100%)!important;
+.secondary-navigation #layout_context_title {
+    background: var(--cdc-background-navbar) !important;
 }
 
-.widget-links.sidebar-navigation>li.active::before, .widget-links.sidebar-views>li.active::before,
-.widget-links.sidebar-navigation>li.active::after, .widget-links.sidebar-views>li.active::after {
+body:not(.fixed) #barTopMenu li.active>a img,
+body:not(.fixed) #barTopMenu li:hover>a img {
+    filter: hue-rotate(350deg) saturate(100%) brightness(100%) !important;
+}
+
+.widget-links.sidebar-navigation>li.active::before,
+.widget-links.sidebar-views>li.active::before,
+.widget-links.sidebar-navigation>li.active::after,
+.widget-links.sidebar-views>li.active::after {
     content: none !important;
 }
 
-.widget-links.sidebar-navigation>li.active, .widget-links.sidebar-views>li.active {
+.widget-links.sidebar-navigation>li.active,
+.widget-links.sidebar-views>li.active {
     background: #000000 !important;
     font-weight: 500 !important;
     margin: 0 !important;
@@ -62,7 +79,8 @@ body:not(.fixed) #barTopMenu li.active>a img, body:not(.fixed) #barTopMenu li:ho
     box-shadow: none !important;
 }
 
-.widget-links.sidebar-views>li.active a, .widget-links.sidebar-navigation>li.active a {
+.widget-links.sidebar-views>li.active a,
+.widget-links.sidebar-navigation>li.active a {
     padding: 0 !important;
 }
 
@@ -70,33 +88,47 @@ body:not(.fixed) #barTopMenu li.active>a img, body:not(.fixed) #barTopMenu li:ho
     display: none;
 }
 
-#tabs li, .smiley-tabs li, .helpbar-container, .helpbar-container * {
+#tabs li,
+.smiley-tabs li,
+.helpbar-container,
+.helpbar-container * {
     background: none !important;
 }
 
-#page_title_container, #layout_container {
+#page_title_container,
+#layout_container {
     background-color: var(--cdc-background) !important;
 }
 
-#layout_content, #layout_page, .ui-widget-content {
+#layout_content,
+#layout_page,
+.ui-widget-content {
     background: none !important;
 }
 
-#layout-sidebar, .studip-widget .widget-header {
+#layout-sidebar,
+.studip-widget .widget-header {
     background: #000 !important;
 }
 
-fieldset, #layout-sidebar, .studip-widget, article.studip, section.contentbox {
+fieldset,
+#layout-sidebar,
+.studip-widget,
+article.studip,
+section.contentbox {
     border-radius: 4px !important;
     overflow: hidden !important;
     border-color: #505050 !important;
 }
 
-a:not(.button), a:link:not(.button), a:visited:not(.button) {
+a:not(.button),
+a:link:not(.button),
+a:visited:not(.button) {
     color: var(--cdc-foreground) !important;
 }
 
-table.default>tbody>tr>th, table.default>thead>tr>th {
+table.default>tbody>tr>th,
+table.default>thead>tr>th {
     background-color: var(--cdc-primary) !important;
     color: var(--cdc-foreground) !important;
 }
@@ -106,33 +138,41 @@ table.default>tbody>tr>td {
 }
 
 table.default>caption {
-    color: #757b85 !important; 
+    color: #757b85 !important;
 }
 
 table.default>tfoot>tr>td {
     background-color: #000 !important;
 }
 
-table#schedule_data thead tr td, div.schedule_hours, table#schedule_data tbody td:first-child{
+table#schedule_data thead tr td,
+div.schedule_hours,
+table#schedule_data tbody td:first-child {
     background: none !important;
     color: #eee !important;
     border-color: #0000 !important;
 }
 
-.sortable-table .header, .sortable-table .tablesorter-header:not(.sorter-false) {
+.sortable-table .header,
+.sortable-table .tablesorter-header:not(.sorter-false) {
     color: #7699cf !important;
 }
 
-div.schedule_day, div.schedule_hours, div.schedule_marker {
+div.schedule_day,
+div.schedule_hours,
+div.schedule_marker {
     border-color: #4e4e4e !important;
 }
 
-.sidebar-widget, .sidebar .sidebar-widget-header {
+.sidebar-widget,
+.sidebar .sidebar-widget-header {
     background: none !important;
     color: #3b74cd !important;
     border-color: #323232 !important;
 }
-.sidebar .sidebar-widget, .sidebar .sidebar-widget-placeholder {
+
+.sidebar .sidebar-widget,
+.sidebar .sidebar-widget-placeholder {
     border: none !important;
     border-bottom: 1px solid #323232 !important;
 }
@@ -164,16 +204,20 @@ article.studip header h1 {
     font-weight: 300 !important;
 }
 
-article.studip.toggle>header h1>a:before, .icon-role-clickable {
+article.studip.toggle>header h1>a:before,
+.icon-role-clickable {
     filter: brightness(2);
 }
 
-.icon-role-info, .icon-shape-news, #barTopStudip {
+.icon-role-info,
+.icon-shape-news,
+#barTopStudip {
     filter: invert(1) !important;
 }
 
 form.default fieldset>legend,
-section.contentbox header, article.studip header,
+section.contentbox header,
+article.studip header,
 section.contentbox footer {
     background-color: #000 !important;
 }
@@ -185,11 +229,18 @@ fieldset>legend {
     border-top-right-radius: 4px;
 }
 
-section.contentbox, article.studip {
+section.contentbox,
+article.studip {
     border-color: #6a6a6a !important;
 }
 
-input[type=text], input[type=password], select, .ui-dialog, textarea {
+input[type=search],
+input[type=number],
+input[type=text],
+input[type=password],
+select,
+.ui-dialog,
+textarea {
     background: #000 !important;
     color: #fff !important;
     border: 1px solid #555 !important;
@@ -201,7 +252,8 @@ input[type=text], input[type=password], select, .ui-dialog, textarea {
     color: var(--cdc-foreground);
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: #9b9b9b !important;
 }
 
@@ -215,18 +267,25 @@ input::placeholder, textarea::placeholder {
     color: #eee !important;
 }
 
-.ui-button, .button, a.button:hover {
+.ui-button,
+.button,
+a.button:hover {
     background: var(--cdc-primary) !important;
     border-radius: 4px !important;
     border: none !important;
     color: var(--cdc-foreground) !important;
 }
 
-.button::before, .ui-button::before, a.button::before, .ui-button-icon-primary {
+.button::before,
+.ui-button::before,
+a.button::before,
+.ui-button-icon-primary {
     filter: invert(1) sepia(1) grayscale(1) brightness(1) !important;
 }
 
-.ui-button:hover, .button:hover, a.button:hover {
+.ui-button:hover,
+.button:hover,
+a.button:hover {
     background: var(--cdc-primary-darker) !important;
 }
 
@@ -247,7 +306,8 @@ input#globalsearch-icon {
     background-color: #000 !important;
 }
 
-.contextinfo, #blubber_threads .comments {
+.contextinfo,
+#blubber_threads .comments {
     background-color: #1f3a62 !important;
 }
 
@@ -268,7 +328,8 @@ input#globalsearch-icon {
     filter: invert(1) !important;
 }
 
-.cke_wysiwyg_frame, .cke_wysiwyg_div {
+.cke_wysiwyg_frame,
+.cke_wysiwyg_div {
     background-color: #121212 !important;
     color: #eee !important;
 }
@@ -313,7 +374,8 @@ form.default fieldset.select_terms_of_use>input[type=radio]:checked+label {
     border-radius: 50%;
 }
 
-.action-menu-icon, .action-menu-icon img {
+.action-menu-icon,
+.action-menu-icon img {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -338,9 +400,11 @@ div.schedule_entry dl {
 .messagebox_success {
     border-color: var(--cdc-success);
 }
+
 .messagebox_error {
     border-color: var(--cdc-fail);
 }
+
 .messagebox_info {
     border-color: var(--cdc-primary);
 }
@@ -366,9 +430,11 @@ div.schedule_entry dl {
 .messagebox_success a.close::after {
     color: var(--cdc-success);
 }
+
 .messagebox_error a.close::after {
     color: var(--cdc-fail);
 }
+
 .messagebox_info a.close::after {
     color: var(--cdc-primary);
 }
