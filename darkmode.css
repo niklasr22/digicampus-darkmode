@@ -1,9 +1,9 @@
 :root {
-    --cdc-background: #292929;
+    --cdc-background: #111111;
     --cdc-background-navbar: #1c1c1c;
     --cdc-foreground: #eee;
-    --cdc-primary: #0a3887;
-    --cdc-primary-darker: #0a3175;
+    --cdc-primary: #1350ba;
+    --cdc-primary-darker: #0d43a2;
     --cdc-success: #047600;
     --cdc-fail: #a70101;
 }
